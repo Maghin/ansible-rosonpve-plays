@@ -1,0 +1,15 @@
+# Temporary files
+*~
+*.swap
+*.old
+*.bak
+
+# Security
+*.key
+*.credentials
+*.passwd
+*.vpass
+
+# Ansible specific
+ansible.log
+*.retry
