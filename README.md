@@ -1,7 +1,7 @@
 rosonpve-plays
 ==============
 
-Manages Networks on Proxmox (pve).
+Ansible plays sample to manage a RancherOS infrastructure on Proxmox (pve).
 
 Requirements
 ------------
