@@ -51,6 +51,10 @@ if [ -d "$EXTERNAL_ROLE_DIR" ]; then
 fi
 
 
+# Install roles
+ansible-galaxy install -r "$ROLES_REQUIREMNTS_FILE" --force --no-deps -p "$EXTERNAL_ROLE_DIR"
+
+
 #Touch vpass
 echo "Touching vpass"
 if [ -w "$ROOT_DIR" ]
@@ -59,9 +63,5 @@ then
 else
   sudo touch "$ROOT_DIR/.vpass"
 fi
-
-
-# Install roles
-ansible-galaxy install -r "$ROLES_REQUIREMNTS_FILE" --force --no-deps -p "$EXTERNAL_ROLE_DIR"
 
 exit 0
