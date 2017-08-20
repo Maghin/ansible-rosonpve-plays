@@ -1,0 +1,3 @@
+- src: git+https://github.com/merhylstudio/ansible-rosonpve.git
+  version: "master"
+  name: rosonpve
