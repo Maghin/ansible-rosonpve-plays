@@ -1,0 +1,7 @@
+# This is inventory file for production stage
+
+
+
+[all:vars]
+# Sets the environment to production (prod) or test
+environment=prod
