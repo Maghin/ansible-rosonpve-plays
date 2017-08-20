@@ -1,6 +1,13 @@
 # This is inventory file for test stage
 
+core01i
+node01i
+node02i
+node03i
 
+[rancheros]
+core01i
+node[01:03]i
 
 [all:vars]
 # Sets the environment to production (prod) or test

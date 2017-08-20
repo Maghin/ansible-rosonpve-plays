@@ -1,6 +1,13 @@
 # This is inventory file for production stage
 
+core01p
+node01p
+node02p
+node03p
 
+[rancheros]
+core01p
+node[01:03]p
 
 [all:vars]
 # Sets the environment to production (prod) or test
