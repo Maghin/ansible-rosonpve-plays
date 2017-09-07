@@ -37,7 +37,7 @@ trap "cleanup"  ERR INT TERM
 [[ -z "$(which ansible-galaxy)" ]] && msg_exit "Ansible is not installed or not in your path."
 
 # Check roles req file
-[[ ! -f "$ROLES_REQUIREMENTS_FILE" ]] && msg_exit "roles_requirements '$ROLES_REQUIREMENTS_FILE' does not exist or permssion issue.\nPlease check and re-run."
+[[ ! -f "$ROLES_REQUIREMENTS_FILE" ]] && msg_exit "roles_requirements '$ROLES_REQUIREMENTS_FILE' does not exist or access issue.\nPlease check and re-run."
 
 # Remove existing roles
 if [ -d "$EXTERNAL_ROLE_DIR" ]; then
