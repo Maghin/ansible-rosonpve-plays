@@ -13,3 +13,4 @@
 # Ansible specific
 ansible.log
 *.retry
+roles/external
