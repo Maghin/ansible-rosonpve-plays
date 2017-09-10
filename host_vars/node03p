@@ -1,5 +1,0 @@
----
-# vars file for node03p host
-
-rosonpve_vm_id   : "6423"
-rosonpve_net_ipv4: "10.0.64.23/24"

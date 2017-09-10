@@ -1,9 +1,9 @@
 # This is inventory file for production stage
 
-core01p
-node01p
-node02p
-node03p
+core01p ansible_host=10.0.64.11
+node01p ansible_host=10.0.64.21
+node02p ansible_host=10.0.64.22
+node03p ansible_host=10.0.64.23
 
 [rancheros]
 core01p

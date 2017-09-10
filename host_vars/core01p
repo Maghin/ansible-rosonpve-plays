@@ -1,5 +1,0 @@
----
-# vars file for core01p host
-
-rosonpve_vm_id   : "6411"
-rosonpve_net_ipv4: "10.0.64.11/24"

@@ -1,5 +1,0 @@
----
-# vars file for node02p host
-
-rosonpve_vm_id   : "6422"
-rosonpve_net_ipv4: "10.0.64.22/24"

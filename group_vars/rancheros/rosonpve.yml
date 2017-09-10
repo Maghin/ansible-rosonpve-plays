@@ -6,6 +6,7 @@ rosonpve_ssh_authorized_keys:
 
 rosonpve_vm_pve_node: "sd-120576"
 
+rosonpve_net_ipv4   : "{{ ansible_host }}/24"
 rosonpve_net_gateway: "10.0.64.1"
-rosonpve_net_dns: "10.0.64.1"
-rosonpve_vm_bridge: "vmbr2"
+rosonpve_net_dns    : "10.0.64.1"
+rosonpve_vm_bridge  : "vmbr2"

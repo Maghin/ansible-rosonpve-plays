@@ -1,9 +1,9 @@
 # This is inventory file for test stage
 
-core01i
-node01i
-node02i
-node03i
+core01i ansible_host=10.0.65.11
+node01i ansible_host=10.0.65.21
+node02i ansible_host=10.0.65.22
+node03i ansible_host=10.0.65.23
 
 [rancheros]
 core01i
