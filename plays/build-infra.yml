@@ -1,0 +1,19 @@
+---
+- hosts: rancheros
+  gather_facts: false
+
+  vars_prompt:
+    - name   : "pve_api_host"
+      prompt : "PVE API host?: "
+      default: "localhost"
+      private: no
+    - name   : "pve_api_user"
+      prompt : "PVE API user?: "
+      default: "root@pam"
+      private: no
+    - name   : "pve_api_pass"
+      prompt : "PVE API pass?: "
+      private: yes
+
+  roles:
+    - rosonpve
