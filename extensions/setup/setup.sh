@@ -52,7 +52,7 @@ fi
 
 
 # Install roles
-ansible-galaxy install -r "$ROLES_REQUIREMNTS_FILE" --force --no-deps -p "$EXTERNAL_ROLE_DIR"
+ansible-galaxy install -r "$ROLES_REQUIREMENTS_FILE" --force --no-deps -p "$EXTERNAL_ROLE_DIR"
 
 
 #Touch vpass
